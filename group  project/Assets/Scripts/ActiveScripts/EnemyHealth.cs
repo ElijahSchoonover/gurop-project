@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyHealth : MonoBehaviour
 {
     public int health = 10;
-    public GameObject slime;
+    public GameObject enemy;
     // Update is called once per frame
     void Update()
     {
@@ -14,13 +14,13 @@ public class EnemyHealth : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         string otherTag = collision.gameObject.tag;
-        if (otherTag == "BulletTag")
+        if (otherTag == "PlayerBullet")
         {
             health -= 2;
             if (health <= 0)
             {
-                Destroy(slime);
-                Debug.Log("Slime Killed");
+                Destroy(enemy);
+                Debug.Log("Enemy Killed");
             }
         }
     }
