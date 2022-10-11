@@ -8,6 +8,8 @@ public class Health : MonoBehaviour
 {
     public int health = 10;
     public TextMeshProUGUI healthText;
+    // name of the lose screen
+    public string sceneName;
     // Start is called before the first frame update
     void Start()
     {
