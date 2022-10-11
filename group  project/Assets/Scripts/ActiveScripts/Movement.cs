@@ -18,8 +18,8 @@ public class Movement : MonoBehaviour
         // Debug.Log(xInput);
 
         float yInput = Input.GetAxis("Vertical");
-        GetComponent<Animator>().SetFloat("xInput", xInput);
-        GetComponent<Animator>().SetFloat("yInput", yInput);
+        //GetComponent<Animator>().SetFloat("xInput", xInput);
+        //GetComponent<Animator>().SetFloat("yInput", yInput);
 
         Vector2 moveDirection = new Vector2(xInput, yInput);
 
