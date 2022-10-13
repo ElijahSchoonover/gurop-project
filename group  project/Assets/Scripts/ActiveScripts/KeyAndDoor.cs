@@ -6,6 +6,7 @@ public class KeyAndDoor : MonoBehaviour
 {
     public GameObject key;
     public GameObject door;
+    public int keyCount = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +21,13 @@ public class KeyAndDoor : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(key);
-        Destroy(door);
+        keyCount++;
+        string otherTag = collision.gameObject.tag;
+        if (otherTag == "Door")
+        {
+            Destroy(collision.gameObject);
+            keyCount = 0;
+        }
+
     }
 }
