@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 30988e194c2da6d4fb9648f2b75c278b
+guid: f168126ac8b3a8b42b0480a7fd339857
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,7 +105,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_0
+      name: BatEnemy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,36 +113,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 27, y: 97}
-        - {x: 25, y: 98}
-        - {x: -25, y: 98}
-        - {x: -55, y: 63}
-        - {x: -56, y: 58}
-        - {x: -56, y: -14}
-        - {x: -43, y: -35}
-        - {x: -30, y: -26}
-        - {x: -28, y: -24}
-        - {x: -40, y: -41}
-        - {x: -51, y: -59}
-        - {x: -51, y: -67}
-        - {x: -33, y: -86}
-        - {x: 29, y: -86}
-        - {x: 50, y: -77}
-        - {x: 50, y: 14}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e7d44362f8ade444a7ac3caa5090620
-      internalID: -2020860499
+      spriteID: 0f786a2cfa2282f43a2e80b5f1fa7a27
+      internalID: -1723569041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_1
+      name: BatEnemy_1
       rect:
         serializedVersion: 2
         x: 216
@@ -150,26 +134,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -31, y: 86}
-        - {x: -56, y: 72}
-        - {x: -56, y: -63}
-        - {x: -44, y: -98}
-        - {x: 26, y: -98}
-        - {x: 26, y: 86}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2587b5ffc66d4b40b6198598025e3e1
-      internalID: 1757985645
+      spriteID: 1df2771746a303343bd432ede6fa28e3
+      internalID: -1559631760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_2
+      name: BatEnemy_2
       rect:
         serializedVersion: 2
         x: 432
@@ -177,29 +155,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 31, y: 98}
-        - {x: -25, y: 98}
-        - {x: -56, y: 72}
-        - {x: -56, y: -77}
-        - {x: -39, y: -86}
-        - {x: -22, y: -86}
-        - {x: 37, y: -76}
-        - {x: 56, y: -58}
-        - {x: 56, y: 29}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6448eee9751bb9f45ab0ee11d32117bf
-      internalID: -1118958179
+      spriteID: 2c36f3ac51da6e544b3e620e825b1ae4
+      internalID: -1762567453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_3
+      name: BatEnemy_3
       rect:
         serializedVersion: 2
         x: 648
@@ -207,26 +176,41 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -31, y: 86}
-        - {x: -56, y: 72}
-        - {x: -56, y: -63}
-        - {x: -44, y: -98}
-        - {x: 26, y: -98}
-        - {x: 26, y: 86}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a2eeb90f3fca624f8a9a6adbb1b904d
-      internalID: 1127597915
+      spriteID: 2155f672e868dff47aa1dfec764bffd7
+      internalID: 1030939888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_4
+      name: BatEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 864
+        width: 216
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06146f412f8bc5242bacda58a1161060
+      internalID: -553940126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatEnemy_5
       rect:
         serializedVersion: 2
         x: 0
@@ -234,30 +218,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 35, y: 98}
-        - {x: -38, y: 98}
-        - {x: -50, y: 66}
-        - {x: -50, y: -79}
-        - {x: -38, y: -86}
-        - {x: 32, y: -86}
-        - {x: 48, y: -79}
-        - {x: 53, y: -58}
-        - {x: 56, y: -45}
-        - {x: 56, y: 86}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 543d4ebd7e428f744b3a9e1ac2466a3a
-      internalID: 691560830
+      spriteID: d4f5b6377cb873f439b91957260f29e0
+      internalID: 559073379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_5
+      name: BatEnemy_6
       rect:
         serializedVersion: 2
         x: 216
@@ -265,28 +239,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -25, y: 86}
-        - {x: -26, y: 84}
-        - {x: -26, y: -92}
-        - {x: -8, y: -98}
-        - {x: 46, y: -98}
-        - {x: 56, y: -51}
-        - {x: 56, y: 75}
-        - {x: 24, y: 86}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53ecdf3186db4804f9368a16fb127796
-      internalID: -1760131219
+      spriteID: 97d405fd7e4b46549a9bc47fba8f3fb7
+      internalID: -1095744644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_6
+      name: BatEnemy_7
       rect:
         serializedVersion: 2
         x: 432
@@ -294,35 +260,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 34, y: -27}
-        - {x: 56, y: 12}
-        - {x: 56, y: 52}
-        - {x: 26, y: 98}
-        - {x: -37, y: 98}
-        - {x: -56, y: 39}
-        - {x: -56, y: -74}
-        - {x: -28, y: -78}
-        - {x: -14, y: -68}
-        - {x: -3, y: -55}
-        - {x: 27, y: -86}
-        - {x: 38, y: -86}
-        - {x: 52, y: -77}
-        - {x: 56, y: -69}
-        - {x: 56, y: -51}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbb572eebbdd45b4eadef17af4f9e306
-      internalID: -2062480803
+      spriteID: af13a0428cd7b9f4784436dfad365f0b
+      internalID: 1487085931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_7
+      name: BatEnemy_8
       rect:
         serializedVersion: 2
         x: 648
@@ -330,28 +281,41 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -25, y: 86}
-        - {x: -26, y: 84}
-        - {x: -26, y: -92}
-        - {x: -8, y: -98}
-        - {x: 46, y: -98}
-        - {x: 56, y: -51}
-        - {x: 56, y: 75}
-        - {x: 24, y: 86}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c67ed7c0255248544ab9df60fcbb08f3
-      internalID: -1464621179
+      spriteID: 565083eb98ece99488693eebd0439fda
+      internalID: 2079046029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_8
+      name: BatEnemy_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 648
+        width: 216
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd1f60a0ab305441a922244266970b1
+      internalID: 1140481407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatEnemy_10
       rect:
         serializedVersion: 2
         x: 0
@@ -359,28 +323,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -26, y: 98}
-        - {x: -32, y: 94}
-        - {x: -32, y: -49}
-        - {x: -29, y: -86}
-        - {x: 30, y: -86}
-        - {x: 50, y: -47}
-        - {x: 50, y: 72}
-        - {x: 37, y: 98}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e8838c816f22a247a9d56b3ff1698f9
-      internalID: -1566681881
+      spriteID: 9071fd01f7d0f124f9d0f7cacf61222c
+      internalID: -837688443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_9
+      name: BatEnemy_11
       rect:
         serializedVersion: 2
         x: 216
@@ -388,28 +344,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -18, y: 86}
-        - {x: -32, y: 75}
-        - {x: -32, y: -68}
-        - {x: -28, y: -98}
-        - {x: 33, y: -98}
-        - {x: 50, y: -23}
-        - {x: 50, y: 55}
-        - {x: 20, y: 86}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b36c4b47f90a3c43ac507175bcdba6f
-      internalID: 496861052
+      spriteID: e7a87d98f9a32ae498773f5095dc492d
+      internalID: 171862501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_10
+      name: BatEnemy_12
       rect:
         serializedVersion: 2
         x: 432
@@ -417,26 +365,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -32, y: -86}
-        - {x: 50, y: -86}
-        - {x: 50, y: 73}
-        - {x: 22, y: 98}
-        - {x: -30, y: 98}
-        - {x: -32, y: 88}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79f931e0868a157499bfb8215537823d
-      internalID: -716252877
+      spriteID: 47e4163d79c52cd4c8ae5dbe4557e728
+      internalID: 2060320203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_11
+      name: BatEnemy_13
       rect:
         serializedVersion: 2
         x: 648
@@ -444,28 +386,41 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -18, y: 86}
-        - {x: -32, y: 75}
-        - {x: -32, y: -68}
-        - {x: -28, y: -98}
-        - {x: 33, y: -98}
-        - {x: 50, y: -23}
-        - {x: 50, y: 55}
-        - {x: 20, y: 86}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73da04cd9a8ca1d45ba0f1f7c8d2fd61
-      internalID: 1166365327
+      spriteID: ac61f36f506ce9b47ae5a4df2b2cbe45
+      internalID: 2003007038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_12
+      name: BatEnemy_14
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 432
+        width: 216
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ca9b84d60d7734ab9d2a645d9d7e91
+      internalID: -103507844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatEnemy_15
       rect:
         serializedVersion: 2
         x: 0
@@ -473,25 +428,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -31, y: 92}
-        - {x: -50, y: 64}
-        - {x: -50, y: -80}
-        - {x: 32, y: -80}
-        - {x: 32, y: 92}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc6a694e50b75c844a2c6a96086c9985
-      internalID: 771860526
+      spriteID: 9c9ce859817fd27439dd97148bd1e52d
+      internalID: 2143489450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_13
+      name: BatEnemy_16
       rect:
         serializedVersion: 2
         x: 216
@@ -499,30 +449,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 29, y: 80}
-        - {x: -23, y: 80}
-        - {x: -50, y: 36}
-        - {x: -50, y: 5}
-        - {x: -49, y: 3}
-        - {x: -27, y: -92}
-        - {x: 24, y: -92}
-        - {x: 26, y: -90}
-        - {x: 32, y: -83}
-        - {x: 32, y: 79}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 156dd1b045c614a49afeb7b53f00586b
-      internalID: 249771167
+      spriteID: 957c60fa5f96801488298ca66c9d5bfb
+      internalID: 420884126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_14
+      name: BatEnemy_17
       rect:
         serializedVersion: 2
         x: 432
@@ -530,29 +470,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -31, y: 92}
-        - {x: -50, y: 64}
-        - {x: -50, y: 18}
-        - {x: -49, y: 15}
-        - {x: -41, y: 14}
-        - {x: -32, y: -74}
-        - {x: -14, y: -80}
-        - {x: 32, y: -80}
-        - {x: 32, y: 92}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c07ce1ef36135004e9ed107b4495cdaa
-      internalID: 207543757
+      spriteID: 0969d7daed42fff4cb66c3775bdb3c57
+      internalID: -249131849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_15
+      name: BatEnemy_18
       rect:
         serializedVersion: 2
         x: 648
@@ -560,30 +491,41 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: 29, y: 80}
-        - {x: -23, y: 80}
-        - {x: -50, y: 36}
-        - {x: -50, y: 5}
-        - {x: -49, y: 3}
-        - {x: -27, y: -92}
-        - {x: 24, y: -92}
-        - {x: 26, y: -90}
-        - {x: 32, y: -83}
-        - {x: 32, y: 79}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10641870a4b91e24f89f088edff5a5c9
-      internalID: 1710830585
+      spriteID: 0811a80c625eec6429f87bcd15dc0049
+      internalID: 502582173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_16
+      name: BatEnemy_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 216
+        width: 216
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254f0c54bd1386c4aac3b353353ef681
+      internalID: 1536657912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatEnemy_20
       rect:
         serializedVersion: 2
         x: 0
@@ -591,28 +533,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -18, y: 86}
-        - {x: -32, y: 75}
-        - {x: -32, y: -68}
-        - {x: -28, y: -98}
-        - {x: 33, y: -98}
-        - {x: 50, y: -23}
-        - {x: 50, y: 55}
-        - {x: 20, y: 86}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9772f8207bad89b4ea70f7f208fcd9c8
-      internalID: 897840884
+      spriteID: d4cbad563f754a040ab4fa698e51d292
+      internalID: -1640284126
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_17
+      name: BatEnemy_21
       rect:
         serializedVersion: 2
         x: 216
@@ -620,28 +554,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -21, y: 80}
-        - {x: -32, y: 69}
-        - {x: -32, y: -70}
-        - {x: -28, y: -98}
-        - {x: 34, y: -98}
-        - {x: 50, y: -29}
-        - {x: 50, y: 52}
-        - {x: 38, y: 80}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28783fc081201a342abca58d2be67c98
-      internalID: 86166634
+      spriteID: 534c7e56a6f6e6149b5ecea0a6c52cc0
+      internalID: -1216561148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_18
+      name: BatEnemy_22
       rect:
         serializedVersion: 2
         x: 432
@@ -649,28 +575,20 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -30, y: 74}
-        - {x: -32, y: 64}
-        - {x: -32, y: -94}
-        - {x: -30, y: -98}
-        - {x: 29, y: -98}
-        - {x: 50, y: -28}
-        - {x: 50, y: 48}
-        - {x: 38, y: 74}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce9f743e03275564ba35a66d9c148e61
-      internalID: -1897413694
+      spriteID: 19524d67e637b764db655a7268f4e25b
+      internalID: 578271652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerAnimationWalkPiskel_19
+      name: BatEnemy_23
       rect:
         serializedVersion: 2
         x: 648
@@ -678,22 +596,35 @@ TextureImporter:
         width: 216
         height: 216
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -21, y: 80}
-        - {x: -32, y: 69}
-        - {x: -32, y: -70}
-        - {x: -28, y: -98}
-        - {x: 34, y: -98}
-        - {x: 50, y: -29}
-        - {x: 50, y: 52}
-        - {x: 38, y: 80}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab92db8819ebf1b4cb11544e6e1a9223
-      internalID: -607377895
+      spriteID: 9029ef41509ac7244944573f36743dd4
+      internalID: 622961463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BatEnemy_24
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 216
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d440cfad5be0fc141935a4e10c1c7eca
+      internalID: 1634338777
       vertices: []
       indices: 
       edges: []
@@ -709,26 +640,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerAnimationWalkPiskel_7: -1464621179
-      PlayerAnimationWalkPiskel_4: 691560830
-      PlayerAnimationWalkPiskel_16: 897840884
-      PlayerAnimationWalkPiskel_5: -1760131219
-      PlayerAnimationWalkPiskel_18: -1897413694
-      PlayerAnimationWalkPiskel_10: -716252877
-      PlayerAnimationWalkPiskel_8: -1566681881
-      PlayerAnimationWalkPiskel_11: 1166365327
-      PlayerAnimationWalkPiskel_12: 771860526
-      PlayerAnimationWalkPiskel_6: -2062480803
-      PlayerAnimationWalkPiskel_2: -1118958179
-      PlayerAnimationWalkPiskel_14: 207543757
-      PlayerAnimationWalkPiskel_0: -2020860499
-      PlayerAnimationWalkPiskel_17: 86166634
-      PlayerAnimationWalkPiskel_19: -607377895
-      PlayerAnimationWalkPiskel_9: 496861052
-      PlayerAnimationWalkPiskel_1: 1757985645
-      PlayerAnimationWalkPiskel_3: 1127597915
-      PlayerAnimationWalkPiskel_15: 1710830585
-      PlayerAnimationWalkPiskel_13: 249771167
+      BatEnemy_2: -1762567453
+      BatEnemy_11: 171862501
+      BatEnemy_5: 559073379
+      BatEnemy_12: 2060320203
+      BatEnemy_0: -1723569041
+      BatEnemy_4: -553940126
+      BatEnemy_9: 1140481407
+      BatEnemy_10: -837688443
+      BatEnemy_3: 1030939888
+      BatEnemy_23: 622961463
+      BatEnemy_17: -249131849
+      BatEnemy_16: 420884126
+      BatEnemy_22: 578271652
+      BatEnemy_21: -1216561148
+      BatEnemy_24: 1634338777
+      BatEnemy_18: 502582173
+      BatEnemy_7: 1487085931
+      BatEnemy_6: -1095744644
+      BatEnemy_20: -1640284126
+      BatEnemy_13: 2003007038
+      BatEnemy_19: 1536657912
+      BatEnemy_15: 2143489450
+      BatEnemy_14: -103507844
+      BatEnemy_8: 2079046029
+      BatEnemy_1: -1559631760
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
