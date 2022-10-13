@@ -23,15 +23,19 @@ public class LevelMenu : MonoBehaviour
     }
     public void LoadLevelOne()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("level 1");
     }
     public void LoadLevelTwo()
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("level 2");
     }
     public void LoadLevelThree()
     {
-        SceneManager.LoadScene("Level3");
+        SceneManager.LoadScene("level 3");
+    }
+    public void LoadLevelFour()
+    {
+        SceneManager.LoadScene("level 4");
     }
     public void LoadTutorial()
     {
