@@ -8,6 +8,7 @@ TagManager:
   - Treasure
   - PlayerBullet
   - Door
+  - Key
   layers:
   - Default
   - TransparentFX
