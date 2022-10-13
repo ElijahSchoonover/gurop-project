@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class KeyAndDoor : MonoBehaviour
 {
-    public GameObject key;
-    public GameObject door;
     public int keyCount = 0;
     // Start is called before the first frame update
     void Start()
@@ -20,13 +18,16 @@ public class KeyAndDoor : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(key);
-        keyCount++;
         string otherTag = collision.gameObject.tag;
-        if (otherTag == "Door")
+        if (otherTag == "Key")
         {
             Destroy(collision.gameObject);
-            keyCount = 0;
+            keyCount++;
+        }
+        else if (otherTag == "Door" && keyCount > 0)
+        {
+            Destroy(collision.gameObject);
+            keyCount--;
         }
 
     }
