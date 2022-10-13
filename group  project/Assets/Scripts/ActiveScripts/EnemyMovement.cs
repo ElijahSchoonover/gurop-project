@@ -20,14 +20,14 @@ public class EnemyMovement : MonoBehaviour
         {
             
             GetComponent<Rigidbody2D>().velocity = playerDirection * speed;
-            //GetComponent<Animator>().SetFloat("xInput", playerDirection.x);
-            //GetComponent<Animator>().SetFloat("yInput", playerDirection.y);
+            GetComponent<Animator>().SetFloat("xInput", playerDirection.x);
+            GetComponent<Animator>().SetFloat("yInput", playerDirection.y);
         }
         else
         {
             GetComponent<Rigidbody2D>().velocity = Vector3.zero;
-            //GetComponent<Animator>().SetFloat("xInput", 0);
-            //GetComponent<Animator>().SetFloat("yInput", 0);
+            GetComponent<Animator>().SetFloat("xInput", 0);
+            GetComponent<Animator>().SetFloat("yInput", 0);
         }
         // Animates the enemy
         
