@@ -576,6 +576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyBat
       objectReference: {fileID: 0}
+    - target: {fileID: 1658062317567988503, guid: 04b9e6f527de1df4098bb222a2ac2284, type: 3}
+      propertyPath: m_TagString
+      value: DamageTag
+      objectReference: {fileID: 0}
     - target: {fileID: 1658062317567988716, guid: 04b9e6f527de1df4098bb222a2ac2284, type: 3}
       propertyPath: player
       value: 
@@ -636,6 +640,10 @@ PrefabInstance:
     - target: {fileID: 1693807653349200115, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1693807653349200120, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
+      propertyPath: sceneName
+      value: MoveTest
       objectReference: {fileID: 0}
     - target: {fileID: 1693807653349200122, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
       propertyPath: bullet
@@ -726,6 +734,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 5334320768326482696, guid: b7528798c017f55489253cfdfe34699f, type: 3}
+      propertyPath: m_TagString
+      value: DamageTag
+      objectReference: {fileID: 0}
     - target: {fileID: 5334320768326482702, guid: b7528798c017f55489253cfdfe34699f, type: 3}
       propertyPath: player
       value: 
@@ -807,6 +819,10 @@ PrefabInstance:
     - target: {fileID: 3462136285993772315, guid: 604f5da96e7e72a41a04b45ab0787223, type: 3}
       propertyPath: m_Name
       value: SpiderwebBullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462136285993772315, guid: 604f5da96e7e72a41a04b45ab0787223, type: 3}
+      propertyPath: m_TagString
+      value: DamageTag
       objectReference: {fileID: 0}
     - target: {fileID: 7911495126752546059, guid: 604f5da96e7e72a41a04b45ab0787223, type: 3}
       propertyPath: m_RootOrder
