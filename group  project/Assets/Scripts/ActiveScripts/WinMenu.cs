@@ -29,9 +29,10 @@ public class WinMenu : MonoBehaviour
     public void Quit()
     {
         Application.Quit();
+        Debug.Log("Game Closed");
     }
-    /*public void MainMenu()
+    public void MainMenu()
     {
-        SceneManager.LoadScene();
-    }*/
+        SceneManager.LoadScene("MainMenu");
+    }
 }
