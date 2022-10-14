@@ -2143,7 +2143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartName: level 4
-  nextLevelName: WinScreenFinal
+  nextLevelName: 
 --- !u!114 &1175564544
 MonoBehaviour:
   m_ObjectHideFlags: 0
