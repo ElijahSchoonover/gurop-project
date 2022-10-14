@@ -234,6 +234,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &782183528 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1658062317567988503, guid: 04b9e6f527de1df4098bb222a2ac2284, type: 3}
+  m_PrefabInstance: {fileID: 1658062317416426348}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &782183535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 782183528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c430e786523f0f478204ea5fb8e9622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  enemy: {fileID: 782183528}
 --- !u!1 &1035569907
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,6 +641,14 @@ PrefabInstance:
       propertyPath: bullet
       value: 
       objectReference: {fileID: 1322353108}
+    - target: {fileID: 1693807653349200122, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
+      propertyPath: bulletLifeTime
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1693807653349200124, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1693807653349200126, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
       propertyPath: m_Constraints
       value: 4
