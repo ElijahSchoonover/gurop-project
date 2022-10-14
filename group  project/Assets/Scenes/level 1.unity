@@ -69812,7 +69812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0fc854adb85ad143a9fbeb03f699452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 20
   healthText: {fileID: 0}
   sceneName: level 1
 --- !u!114 &1968864676
