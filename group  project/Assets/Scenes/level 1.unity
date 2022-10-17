@@ -1303,7 +1303,7 @@ PrefabInstance:
       objectReference: {fileID: 3462136285993772315, guid: 604f5da96e7e72a41a04b45ab0787223, type: 3}
     - target: {fileID: 6521104157892805510, guid: b7528798c017f55489253cfdfe34699f, type: 3}
       propertyPath: bulletLifetime
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7528798c017f55489253cfdfe34699f, type: 3}
@@ -47033,6 +47033,10 @@ PrefabInstance:
       propertyPath: prefab
       value: 
       objectReference: {fileID: 3462136285993772315, guid: 604f5da96e7e72a41a04b45ab0787223, type: 3}
+    - target: {fileID: 6521104157892805510, guid: b7528798c017f55489253cfdfe34699f, type: 3}
+      propertyPath: bulletLifetime
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7528798c017f55489253cfdfe34699f, type: 3}
 --- !u!1 &822005333 stripped
@@ -69920,5 +69924,9 @@ PrefabInstance:
       propertyPath: prefab
       value: 
       objectReference: {fileID: 3462136285993772315, guid: 604f5da96e7e72a41a04b45ab0787223, type: 3}
+    - target: {fileID: 6521104157892805510, guid: b7528798c017f55489253cfdfe34699f, type: 3}
+      propertyPath: bulletLifetime
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7528798c017f55489253cfdfe34699f, type: 3}
