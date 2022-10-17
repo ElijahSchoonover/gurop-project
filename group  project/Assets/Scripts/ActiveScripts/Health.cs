@@ -29,8 +29,7 @@ public class Health : MonoBehaviour
             health -= 2;
             if (health <= 0)
             {
-                Scene scene = SceneManager.GetActiveScene();
-                SceneManager.LoadScene(scene.name);
+                SceneManager.LoadScene(sceneName);
             }
         }
     }
