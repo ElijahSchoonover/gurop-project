@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8331406329964221187}
   - component: {fileID: 8331406329964221186}
   - component: {fileID: 2785162460482396925}
+  - component: {fileID: -9032915252485533570}
   m_Layer: 7
   m_Name: EnemySkeleton
   m_TagString: DamageTag
@@ -189,3 +190,17 @@ MonoBehaviour:
   player: {fileID: 1693807653349200113, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
   close: 5
   shootDelay: 1
+--- !u!114 &-9032915252485533570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8331406329964221189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c430e786523f0f478204ea5fb8e9622, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  enemy: {fileID: 8331406329964221189}
