@@ -20,7 +20,7 @@ public class TreasureCollection : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        treasureText.text = "Treasure: " + treasureCount;
+        //treasureText.text = "Treasure: " + treasureCount;
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
