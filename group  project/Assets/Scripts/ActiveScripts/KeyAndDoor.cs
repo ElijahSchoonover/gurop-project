@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class KeyAndDoor : MonoBehaviour
 {
     public int keyCount = 0;
+    public TextMeshProUGUI keyText;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +18,7 @@ public class KeyAndDoor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        keyText.text = "Keys: " + keyCount;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

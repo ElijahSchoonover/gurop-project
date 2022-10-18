@@ -69649,6 +69649,7 @@ GameObject:
   - component: {fileID: 1968864675}
   - component: {fileID: 1968864676}
   - component: {fileID: 1968864677}
+  - component: {fileID: 1968864678}
   m_Layer: 3
   m_Name: player
   m_TagString: Player
@@ -69818,7 +69819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 20
   healthText: {fileID: 0}
-  sceneName: level 1
+  sceneName: LoseScreen1
 --- !u!114 &1968864676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69832,6 +69833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyCount: 0
+  keyText: {fileID: 0}
 --- !u!114 &1968864677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69849,6 +69851,22 @@ MonoBehaviour:
   bulletLifeTime: 1.5
   shootSound: {fileID: 0}
   shootDelay: 0.3
+--- !u!114 &1968864678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968864668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68b97a5d116831b468c2c41699c04e68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  treasureCount: 0
+  treasureNeeded: 1
+  treasureText: {fileID: 0}
+  sceneName: WinScreen1
 --- !u!1001 &2000066140
 PrefabInstance:
   m_ObjectHideFlags: 0
