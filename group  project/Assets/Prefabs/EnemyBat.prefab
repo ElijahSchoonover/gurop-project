@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 1658062317567988496}
   - component: {fileID: 1658062317567988717}
   - component: {fileID: 1658062317567988716}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemyBat
-  m_TagString: Untagged
+  m_TagString: DamageTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

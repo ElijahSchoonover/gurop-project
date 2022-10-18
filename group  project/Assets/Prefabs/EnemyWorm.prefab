@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 3090308831211510419}
   - component: {fileID: 3090308831211510421}
   - component: {fileID: 3090308831211510422}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: EnemyWorm
-  m_TagString: Untagged
+  m_TagString: DamageTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
