@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     public float speed = 2.5f;
+    public float speedBuff = 3f;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,5 +26,14 @@ public class Movement : MonoBehaviour
 
         GetComponent<Rigidbody2D>().velocity = moveDirection * speed;
         
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        string otherTag = collision.gameObject.tag;
+        if (otherTag == "SpeedPowerUp")
+        {
+            speed += speedBuff;
+            Destroy(collision.gameObject);
+        }
     }
 }

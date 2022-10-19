@@ -189,6 +189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
+  speedBuff: 3
 --- !u!50 &1693807653349200126
 Rigidbody2D:
   serializedVersion: 4
@@ -264,7 +265,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0fc854adb85ad143a9fbeb03f699452, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  health: 20
+  maxHealth: 20
   healthText: {fileID: 0}
   sceneName: 
 --- !u!95 &1693807653349200121

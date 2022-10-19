@@ -9,6 +9,8 @@ TagManager:
   - PlayerBullet
   - Door
   - Key
+  - SpeedPowerUp
+  - HealingPowerUp
   layers:
   - Default
   - TransparentFX
