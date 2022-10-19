@@ -71418,6 +71418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 6
+  speedBuff: 3
 --- !u!95 &1968864674
 Animator:
   serializedVersion: 4
@@ -71451,6 +71452,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 20
+  maxHealth: 20
   healthText: {fileID: 483620284}
   sceneName: LoseScreen1
 --- !u!114 &1968864676

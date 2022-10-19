@@ -7,6 +7,7 @@ using TMPro;
 public class Health : MonoBehaviour
 {
     public int health = 10;
+    public int maxHealth = 10;
     public TextMeshProUGUI healthText;
     // name of the lose screen
     public string sceneName;
@@ -30,6 +31,16 @@ public class Health : MonoBehaviour
             if (health <= 0)
             {
                 SceneManager.LoadScene(sceneName);
+            }
+        }
+        else if (otherTag == "HealingPowerUp")
+        {
+            health += 4;
+            Destroy(collision.gameObject);
+            if (health > maxHealth)
+            {
+                health = maxHealth;
+                
             }
         }
     }
