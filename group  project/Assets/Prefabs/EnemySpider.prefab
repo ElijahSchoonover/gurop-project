@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  close: 10
+  close: 9
   speed: 3
 --- !u!95 &5334320768326482703
 Animator:
@@ -202,5 +202,5 @@ MonoBehaviour:
   bulletSpeed: 10
   bulletLifetime: 2
   player: {fileID: 0}
-  close: 5
+  close: 9
   shootDelay: 1

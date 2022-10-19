@@ -169,7 +169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  close: 8
+  close: 10
   speed: 3
 --- !u!114 &3027024214963849691
 MonoBehaviour:
