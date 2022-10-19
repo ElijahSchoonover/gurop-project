@@ -6,6 +6,7 @@ public class EnemyHealth : MonoBehaviour
 {
     public int health = 10;
     public GameObject enemy;
+    public static int damageAmount = 2;
     // Update is called once per frame
     void Update()
     {
@@ -16,7 +17,7 @@ public class EnemyHealth : MonoBehaviour
         string otherTag = collision.gameObject.tag;
         if (otherTag == "PlayerBullet")
         {
-            health -= 2;
+            health -= damageAmount;
             if (health <= 0)
             {
                 Destroy(enemy);

@@ -35,5 +35,10 @@ public class Movement : MonoBehaviour
             speed += speedBuff;
             Destroy(collision.gameObject);
         }
+        if (otherTag == "DamagePowerUp")
+        {
+            EnemyHealth.damageAmount += 2;
+            Destroy(collision.gameObject);
+        }
     }
 }

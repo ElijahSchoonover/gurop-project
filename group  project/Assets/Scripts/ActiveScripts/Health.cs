@@ -9,6 +9,7 @@ public class Health : MonoBehaviour
     public int health = 10;
     public int maxHealth = 10;
     public TextMeshProUGUI healthText;
+    public int healing = 4;
     // name of the lose screen
     public string sceneName;
     // Start is called before the first frame update
@@ -35,7 +36,7 @@ public class Health : MonoBehaviour
         }
         else if (otherTag == "HealingPowerUp")
         {
-            health += 4;
+            health += healing;
             Destroy(collision.gameObject);
             if (health > maxHealth)
             {
