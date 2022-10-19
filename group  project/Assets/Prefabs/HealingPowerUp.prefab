@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3667136942112120115}
   - component: {fileID: 3667136942112120116}
   - component: {fileID: 3667136942112120117}
-  - component: {fileID: 3667136942112120118}
+  - component: {fileID: 6256820751278838663}
   m_Layer: 0
   m_Name: HealingPowerUp
   m_TagString: HealingPowerUp
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -2146002647, guid: 9353cf68cca76fd4ba00a88cf43090df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -107,7 +107,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!58 &3667136942112120118
+--- !u!58 &6256820751278838663
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,6 +120,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.006436825, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1.0892487
