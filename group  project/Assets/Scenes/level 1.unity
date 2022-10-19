@@ -1692,7 +1692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5334320768326482702, guid: b7528798c017f55489253cfdfe34699f, type: 3}
       propertyPath: close
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5334320768326482702, guid: b7528798c017f55489253cfdfe34699f, type: 3}
       propertyPath: player
@@ -47694,7 +47694,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5334320768326482702, guid: b7528798c017f55489253cfdfe34699f, type: 3}
       propertyPath: close
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5334320768326482702, guid: b7528798c017f55489253cfdfe34699f, type: 3}
       propertyPath: player
@@ -71454,6 +71454,7 @@ MonoBehaviour:
   health: 20
   maxHealth: 20
   healthText: {fileID: 483620284}
+  healing: 4
   sceneName: LoseScreen1
 --- !u!114 &1968864676
 MonoBehaviour:
@@ -71563,12 +71564,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5334320768326482702, guid: b7528798c017f55489253cfdfe34699f, type: 3}
       propertyPath: close
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5334320768326482702, guid: b7528798c017f55489253cfdfe34699f, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 1968864668}
+    - target: {fileID: 6521104157892805510, guid: b7528798c017f55489253cfdfe34699f, type: 3}
+      propertyPath: close
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 6521104157892805510, guid: b7528798c017f55489253cfdfe34699f, type: 3}
       propertyPath: player
       value: 

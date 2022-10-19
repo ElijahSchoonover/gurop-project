@@ -188,7 +188,7 @@ MonoBehaviour:
   bulletSpeed: 10
   bulletLifetime: 2
   player: {fileID: 1693807653349200113, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
-  close: 5
+  close: 10
   shootDelay: 1
 --- !u!114 &-9032915252485533570
 MonoBehaviour:
