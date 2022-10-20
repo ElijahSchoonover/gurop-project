@@ -84540,7 +84540,7 @@ MonoBehaviour:
   health: 20
   maxHealth: 20
   healthText: {fileID: 483620284}
-  healing: 4
+  healing: 8
   sceneName: LoseScreen1
 --- !u!114 &1968864676
 MonoBehaviour:
