@@ -25,7 +25,7 @@ public class PlayerShoot : MonoBehaviour
                 shootDirection.Normalize();
                 bulletSpawn.GetComponent<Rigidbody2D>().velocity = shootDirection * speed;
                 Destroy(bulletSpawn, bulletLifeTime);
-                Camera.main.GetComponent<AudioSource>().PlayOneShot(shootSound);
+                GetComponent<AudioSource>().PlayOneShot(shootSound);
                 timer = 0;
             }
         }
