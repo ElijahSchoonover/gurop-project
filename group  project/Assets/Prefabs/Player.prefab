@@ -302,8 +302,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6df6215fa8a5b846932610f232f01ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bullet: {fileID: 0}
+  bullet: {fileID: 7608208293397190275, guid: 75aeb5daa65fe4644bb74245b60e7f57, type: 3}
   speed: 30
   bulletLifeTime: 0.8
-  shootSound: {fileID: 0}
+  shootSound: {fileID: 8300000, guid: 94229a5f29b4ca04e920b13faf5abab9, type: 3}
   shootDelay: 0.2
