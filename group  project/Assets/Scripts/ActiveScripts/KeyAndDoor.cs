@@ -8,6 +8,7 @@ using TMPro;
 public class KeyAndDoor : MonoBehaviour
 {
     public int keyCount = 0;
+    public string sceneName; 
     public TextMeshProUGUI keyText;
     // Start is called before the first frame update
     void Start()
@@ -32,6 +33,7 @@ public class KeyAndDoor : MonoBehaviour
         {
             Destroy(collision.gameObject);
             keyCount--;
+            SceneManager.LoadScene(sceneName);
         }
 
     }

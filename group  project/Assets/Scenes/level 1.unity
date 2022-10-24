@@ -99899,6 +99899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyCount: 0
+  sceneName: WinScreen1
   keyText: {fileID: 18447882}
 --- !u!114 &1968864677
 MonoBehaviour:
@@ -100038,7 +100039,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5334320768326482675, guid: b7528798c017f55489253cfdfe34699f, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5334320768326482675, guid: b7528798c017f55489253cfdfe34699f, type: 3}
       propertyPath: m_LocalPosition.x
