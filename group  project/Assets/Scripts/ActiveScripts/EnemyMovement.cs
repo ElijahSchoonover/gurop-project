@@ -7,6 +7,7 @@ public class EnemyMovement : MonoBehaviour
     public GameObject player;
     public float close = 10.0f;
     public float speed = 3.0f;
+    public AudioClip sound; 
     // Update is called once per frame
     void Update()
     {
@@ -22,6 +23,7 @@ public class EnemyMovement : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = playerDirection * speed;
             GetComponent<Animator>().SetFloat("xInput", playerDirection.x);
             GetComponent<Animator>().SetFloat("yInput", playerDirection.y);
+            GetComponent<AudioSource>().Play();
         }
         else
         {
