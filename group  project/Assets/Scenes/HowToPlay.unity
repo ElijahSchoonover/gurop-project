@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -54, y: 171}
+  m_AnchoredPosition: {x: -54, y: 182}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &78249931
@@ -294,7 +294,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -377,8 +377,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 218, y: 40}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 304, y: -7}
+  m_SizeDelta: {x: 346.5448, y: 257.05}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &563563294
 MonoBehaviour:
@@ -400,8 +400,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Find the gold! Use WASD or the arrow keys to move around. Fire at enemies
-    with the left mouse button. Find the hidden keys to open the doors. Good luck!
+  m_text: "-Use WASD or the arrow keys to move.\n-Fire at enemies with the left mouse
+    button. \t     -Collect potions to get power-ups.\n*Purple is damage. Green is
+    health. Orange is speed.\n-Find the hidden keys to open the doors.\n-Find the
+    gold.\nGood luck!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -428,8 +430,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -464,7 +466,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -372.1176, y: 0, z: -244.74634, w: 0}
+  m_margin: {x: -372.1176, y: 0, z: 0.9313965, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -507,8 +509,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1048874599}
+  m_Children: []
   m_Father: {fileID: 1088599401}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 42.314}
@@ -581,18 +582,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048874598}
-  m_LocalRotation: {x: 0, y: 0, z: -0.36243796, w: 0.9320079}
+  m_LocalRotation: {x: -0, y: -0, z: -0.001627475, w: 0.9999987}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.4142, y: 2.4142, z: 2.4142}
+  m_LocalScale: {x: 2.4141998, y: 2.4141998, z: 2.4142}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1488288378}
-  m_Father: {fileID: 577489358}
-  m_RootOrder: 0
+  m_Father: {fileID: 1088599401}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -42.5}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 198, y: -265}
+  m_AnchoredPosition: {x: 0, y: -175}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1048874600
@@ -786,6 +787,7 @@ RectTransform:
   - {fileID: 563563293}
   - {fileID: 1184490746}
   - {fileID: 577489358}
+  - {fileID: 1048874599}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
