@@ -100132,6 +100132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   speedBuff: 3
+  walkSound: {fileID: 0}
 --- !u!95 &1968864674
 Animator:
   serializedVersion: 4
