@@ -5543,6 +5543,8 @@ GameObject:
   - component: {fileID: 993118543}
   - component: {fileID: 993118544}
   - component: {fileID: 993118545}
+  - component: {fileID: 993118546}
+  - component: {fileID: 993118547}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -5671,8 +5673,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25b2b94277d7d2e4688c8d03103d8bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2.5
+  speed: 6
   speedBuff: 3
+--- !u!114 &993118546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993118540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d46cc6dd484b754a97d37fdccd61cc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyCount: 0
+  sceneName: 
+  keyText: {fileID: 0}
+--- !u!61 &993118547
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993118540}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.037036657, y: -0.01994276}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.08, y: 1.08}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.37915218, y: 0.846385}
+  m_EdgeRadius: 0
 --- !u!1001 &1445676245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5746,7 +5789,7 @@ GameObject:
   - component: {fileID: 1679449103}
   m_Layer: 0
   m_Name: rocks
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
