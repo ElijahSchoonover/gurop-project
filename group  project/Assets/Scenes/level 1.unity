@@ -98834,6 +98834,18 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1968864668}
+    - target: {fileID: 6521104157892805510, guid: b7528798c017f55489253cfdfe34699f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1968864668}
+    - target: {fileID: 6521104157892805510, guid: b7528798c017f55489253cfdfe34699f, type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 3462136285993772315, guid: 604f5da96e7e72a41a04b45ab0787223, type: 3}
+    - target: {fileID: 6521104157892805510, guid: b7528798c017f55489253cfdfe34699f, type: 3}
+      propertyPath: bulletLifetime
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7528798c017f55489253cfdfe34699f, type: 3}
 --- !u!1 &1178950330
@@ -99132,6 +99144,14 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1968864668}
+    - target: {fileID: 6521104157892805510, guid: b7528798c017f55489253cfdfe34699f, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1968864668}
+    - target: {fileID: 6521104157892805510, guid: b7528798c017f55489253cfdfe34699f, type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 3462136285993772315, guid: 604f5da96e7e72a41a04b45ab0787223, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7528798c017f55489253cfdfe34699f, type: 3}
 --- !u!1 &1528775150
@@ -100179,7 +100199,7 @@ MonoBehaviour:
   bullet: {fileID: 7608208293397190275, guid: 75aeb5daa65fe4644bb74245b60e7f57, type: 3}
   speed: 30
   bulletLifeTime: 1
-  shootSound: {fileID: 8300000, guid: 94229a5f29b4ca04e920b13faf5abab9, type: 3}
+  shootSound: {fileID: 8300000, guid: 109c241ba9491a945bff942e17258ac9, type: 3}
   shootDelay: 0.3
 --- !u!114 &1968864678
 MonoBehaviour:
