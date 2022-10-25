@@ -1749,7 +1749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   restartName: level 4
-  nextLevelName: 
+  nextLevelName: room
 --- !u!114 &1175564544
 MonoBehaviour:
   m_ObjectHideFlags: 0
