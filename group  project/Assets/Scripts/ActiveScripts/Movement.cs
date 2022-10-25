@@ -6,6 +6,7 @@ public class Movement : MonoBehaviour
 {
     public float speed = 2.5f;
     public float speedBuff = 3f;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,8 @@ public class Movement : MonoBehaviour
         Vector2 moveDirection = new Vector2(xInput, yInput);
 
         GetComponent<Rigidbody2D>().velocity = moveDirection * speed;
+        Debug.Log(moveDirection);
+        
         
     }
     private void OnCollisionEnter2D(Collision2D collision)
