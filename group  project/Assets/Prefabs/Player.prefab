@@ -305,5 +305,5 @@ MonoBehaviour:
   bullet: {fileID: 7608208293397190275, guid: 75aeb5daa65fe4644bb74245b60e7f57, type: 3}
   speed: 30
   bulletLifeTime: 0.8
-  shootSound: {fileID: 8300000, guid: 94229a5f29b4ca04e920b13faf5abab9, type: 3}
+  shootSound: {fileID: 8300000, guid: 109c241ba9491a945bff942e17258ac9, type: 3}
   shootDelay: 0.2
