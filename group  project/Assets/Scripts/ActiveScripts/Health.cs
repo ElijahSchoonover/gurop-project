@@ -13,6 +13,7 @@ public class Health : MonoBehaviour
     // name of the lose screen
     public string sceneName;
     // Start is called before the first frame update
+    public AudioClip potionDrink;
     void Start()
     {
 
@@ -38,6 +39,7 @@ public class Health : MonoBehaviour
         {
             health += healing;
             Destroy(collision.gameObject);
+            GetComponent<AudioSource>().PlayOneShot(potionDrink);
             if (health > maxHealth)
             {
                 health = maxHealth;
