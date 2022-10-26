@@ -21,7 +21,7 @@ public class Health : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthText.text = "Health: " + health;
+        healthText.text = $"Health: {health}/{maxHealth}";
     }
     
     private void OnCollisionEnter2D(Collision2D collision)
