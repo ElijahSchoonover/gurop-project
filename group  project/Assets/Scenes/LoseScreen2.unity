@@ -1010,7 +1010,7 @@ RectTransform:
   m_GameObject: {fileID: 871807307}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.0555499, y: 2.44444, z: 0.41663647}
+  m_LocalScale: {x: 3.0998, y: 2.47984, z: 0.4171897}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 113270220}
