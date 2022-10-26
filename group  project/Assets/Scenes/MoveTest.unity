@@ -2227,6 +2227,10 @@ PrefabInstance:
       propertyPath: healthText
       value: 
       objectReference: {fileID: 422787325}
+    - target: {fileID: 1693807653349200120, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
+      propertyPath: potionDrink
+      value: 
+      objectReference: {fileID: 8300000, guid: 34eb1a865838fa645a7d9404beb00af9, type: 3}
     - target: {fileID: 1693807653349200122, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
       propertyPath: bullet
       value: 
@@ -2247,6 +2251,10 @@ PrefabInstance:
       propertyPath: speed
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1693807653349200124, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
+      propertyPath: potionDrink
+      value: 
+      objectReference: {fileID: 8300000, guid: 34eb1a865838fa645a7d9404beb00af9, type: 3}
     - target: {fileID: 1693807653349200126, guid: 30a5a7e94794b504799ef418c544d748, type: 3}
       propertyPath: m_Constraints
       value: 4

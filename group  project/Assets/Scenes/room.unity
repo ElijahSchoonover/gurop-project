@@ -6887,6 +6887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   speedBuff: 3
+  potionDrink: {fileID: 0}
 --- !u!114 &993118546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6900,7 +6901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   keyCount: 0
-  sceneName: 
+  sceneName: FinalScene
   keyText: {fileID: 1786671903}
 --- !u!61 &993118547
 BoxCollider2D:
@@ -6944,7 +6945,8 @@ MonoBehaviour:
   maxHealth: 20
   healthText: {fileID: 1646626800}
   healing: 4
-  sceneName: 
+  sceneName: room
+  potionDrink: {fileID: 0}
 --- !u!82 &993118549
 AudioSource:
   m_ObjectHideFlags: 0
