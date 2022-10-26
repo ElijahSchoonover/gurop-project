@@ -100280,6 +100280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   speedBuff: 3
+  potionDrink: {fileID: 8300000, guid: 34eb1a865838fa645a7d9404beb00af9, type: 3}
 --- !u!95 &1968864674
 Animator:
   serializedVersion: 4
@@ -100317,6 +100318,7 @@ MonoBehaviour:
   healthText: {fileID: 483620284}
   healing: 8
   sceneName: LoseScreen1
+  potionDrink: {fileID: 8300000, guid: 34eb1a865838fa645a7d9404beb00af9, type: 3}
 --- !u!114 &1968864676
 MonoBehaviour:
   m_ObjectHideFlags: 0
