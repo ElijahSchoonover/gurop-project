@@ -45,4 +45,10 @@ public class LevelMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Credits");
     }
+    public void Quit()
+    {
+        Application.Quit();
+        Debug.Log("Game Closed");
+
+    }
 }
