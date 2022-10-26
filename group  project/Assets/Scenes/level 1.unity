@@ -99292,7 +99292,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6e1c28c4df58ee949a905abdefdd7c7d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: cc1e44d57a6b07b4db8fb98178668513, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -100280,7 +100280,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 6
   speedBuff: 3
-  potionDrink: {fileID: 8300000, guid: 34eb1a865838fa645a7d9404beb00af9, type: 3}
+  potionDrink: {fileID: 0}
 --- !u!95 &1968864674
 Animator:
   serializedVersion: 4
@@ -100318,7 +100318,7 @@ MonoBehaviour:
   healthText: {fileID: 483620284}
   healing: 8
   sceneName: LoseScreen1
-  potionDrink: {fileID: 8300000, guid: 34eb1a865838fa645a7d9404beb00af9, type: 3}
+  potionDrink: {fileID: 0}
 --- !u!114 &1968864676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100377,7 +100377,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 0823e39e066cad94cab93c0f4f4b3c58, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.4
   m_Pitch: 1
