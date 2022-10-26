@@ -6,7 +6,7 @@ public class Movement : MonoBehaviour
 {
     public float speed = 2.5f;
     public float speedBuff = 3f;
-
+    public AudioClip potionDrink;
     // Start is called before the first frame update
     void Start()
     {
@@ -37,11 +37,13 @@ public class Movement : MonoBehaviour
         {
             speed += speedBuff;
             Destroy(collision.gameObject);
+            GetComponent<AudioSource>().PlayOneShot(potionDrink);
         }
         if (otherTag == "DamagePowerUp")
         {
             EnemyHealth.damageAmount += 2;
             Destroy(collision.gameObject);
+            GetComponent<AudioSource>().PlayOneShot(potionDrink);
         }
     }
 }
