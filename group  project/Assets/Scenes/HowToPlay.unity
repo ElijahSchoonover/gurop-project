@@ -959,7 +959,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "-Use WASD or the arrow keys to move.\n-Fire at enemies with the left mouse
     button. \t     -Collect potions to get power-ups.\n-Find the hidden keys to open
-    the doors.\n-Find the gold.\nGood luck!\n"
+    the door.\n-Find the gold.\nGood luck!\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
