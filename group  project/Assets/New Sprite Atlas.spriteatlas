@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 64d0c8abb206a804ba4288aaddb49d87, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -856724373, guid: 64d0c8abb206a804ba4288aaddb49d87, type: 3}
+  - {fileID: 2107770655, guid: 64d0c8abb206a804ba4288aaddb49d87, type: 3}
+  - {fileID: -114685628, guid: 64d0c8abb206a804ba4288aaddb49d87, type: 3}
+  - {fileID: 2028679399, guid: 64d0c8abb206a804ba4288aaddb49d87, type: 3}
+  - {fileID: 926741435, guid: 64d0c8abb206a804ba4288aaddb49d87, type: 3}
+  - {fileID: -882688296, guid: 64d0c8abb206a804ba4288aaddb49d87, type: 3}
+  - {fileID: 309522163, guid: 64d0c8abb206a804ba4288aaddb49d87, type: 3}
+  - {fileID: 1071668834, guid: 64d0c8abb206a804ba4288aaddb49d87, type: 3}
+  - {fileID: -243290995, guid: 64d0c8abb206a804ba4288aaddb49d87, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Tilemap4Art_5
+  - Tilemap4Art_4
+  - Tilemap4Art_7
+  - Tilemap4Art_6
+  - Tilemap4Art_1
+  - Tilemap4Art_0
+  - Tilemap4Art_3
+  - Tilemap4Art_2
+  - Tilemap4Art_8
+  m_RenderDataMap: {}
+  m_Tag: New Sprite Atlas
+  m_IsVariant: 0
